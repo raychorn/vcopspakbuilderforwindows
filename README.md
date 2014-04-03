@@ -3,6 +3,8 @@ vcopspakbuilderforwindows
 
 VCOPS PAK Builder for Windows automates the build process for VmWare VCOPS PAK files.
 
+VCOPS PAK Builder for Windows is protected by (c). Copyright 2014, Vyper Logix Corp., See the LICENSE file for Licensing Details.
+
 pakbuilder Version 1.2.0.0
 
 Usage: pakbuilder ip-address [options]
@@ -73,3 +75,5 @@ The PAK file will appear in SOURCE\.. which is SOURCE without the \Helloworld us
 Change Log:
 
 Version 1.2.0.0 -- Optimized and almost deploys the ADAPTERPAKFILEBUILDER.
+
+https://github.com/raychorn/vcopspakbuilderforwindows
