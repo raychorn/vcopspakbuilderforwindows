@@ -5,7 +5,7 @@ VCOPS PAK Builder for Windows automates the build process for VmWare VCOPS PAK f
 
 VCOPS PAK Builder for Windows is protected by (c). Copyright 2014, Vyper Logix Corp., See the LICENSE file for Licensing Details.
 
-pakbuilder Version 1.2.0.0
+pakbuilder Version 1.4.0.0
 
 Usage: pakbuilder ip-address [options]
 
@@ -60,7 +60,7 @@ After you issue the run.cmd and it completes without warnings or errors your PAK
 
 For instance, let's assume the following command appears in your run.cmd file:
 
-"pakbuilder" 16.83.121.151 -v -p 22 -u root -w Compaq123 -s "c:\workspaces\vcops\Helloworld" -d "/root" -a "/root" -n hpOneViewAdapter3 -b 115
+"pakbuilder" 16.83.121.151 -v -p 22 -u root -w Compaq123 -s "c:\workspaces\vcops\Helloworld" -d "/root" -a "/root" -n hpOneViewAdapter3 -b 115 -i
 
 This tells pakbuilder your Linux IP address is 16.83.121.151 (this is not a real IP address as it appears in this document) and the username is root
 with password of Compaq123 with your Eclipse SOURCE of "c:\workspaces\vcops\Helloworld" and DEST on Linux box of "/root" and ADAPTERPAKFILEBUILDER
@@ -73,6 +73,8 @@ The JAR file must be in SOURCE\build\deploy\ADAPTERNAME.jar.
 The PAK file will appear in SOURCE\.. which is SOURCE without the \Helloworld using this example.
 
 Change Log:
+
+Version 1.4.0.0 -- Use the -x option to use the latest optimizations.
 
 Version 1.2.0.0 -- Optimized and almost deploys the ADAPTERPAKFILEBUILDER.
 
